@@ -1,6 +1,6 @@
 const path = require('path');
 
-const RemoveCssHoverWebpackPlugin = require('../lib/plugin');
+const { RemoveCssHoverWebpackPlugin } = require('../lib/plugin');
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
