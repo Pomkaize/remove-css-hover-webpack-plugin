@@ -1,0 +1,18 @@
+{
+  "name": "remove-css-hover-webpack-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx webpack -c tests/webpack.config.js"
+  },
+  "dependencies": {
+    "postcss": "7.0.39",
+    "postcss-hover": "0.3.0",
+    "css-byebye": "github:Pomkaize/css-byebye"
+  },
+  "devDependencies": {
+    "webpack": "5.64.1",
+    "webpack-cli": "^4.9.1",
+    "mini-css-extract-plugin": "2.4.4",
+    "css-loader": "6.5.1"
+  }
+}
