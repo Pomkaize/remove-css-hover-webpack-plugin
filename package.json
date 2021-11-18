@@ -1,13 +1,13 @@
 {
   "name": "remove-css-hover-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "scripts": {
     "test": "npx webpack -c tests/webpack.config.js"
   },
   "main": "lib/plugin.js",
   "dependencies": {
     "postcss": "7.0.39",
-    "postcss-hover": "0.3.0",
+    "postcss-replace-hover-to-active": "github:Pomkaize/postcss-replace-hover-to-active",
     "css-byebye": "github:Pomkaize/css-byebye"
   },
   "devDependencies": {
